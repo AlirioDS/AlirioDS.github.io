@@ -46,7 +46,7 @@
         "name": "Alirio Diaz | Ingeniero Full-Stack Senior",
         "isPartOf": { "@id": "https://aliriods.github.io/#website" },
         "inLanguage": "es",
-        "dateModified": "2026-08-31",
+        "dateModified": "2026-11-10",
         "mainEntity": { "@id": "https://aliriods.github.io/#person" }
       },
       {
@@ -83,7 +83,7 @@
           "@type": "CollegeOrUniversity",
           "name": "Universidad Nacional Experimental Politécnica de la Fuerza Armada (UNEFA)"
         },
-        "knowsAbout": ["Ruby on Rails", "React", "Angular", "JavaScript", "TypeScript", "PostgreSQL", "AWS", "Google Cloud Platform", "Cloudflare", "Apache Kafka", "Docker", "GraphQL", "Microservicios", "Arquitectura Orientada a Eventos", "SaaS Multi-Tenant", "Sistemas ERP", "Hotwire", "Ingeniería de Producto"],
+        "knowsAbout": ["Ruby on Rails", "React", "Angular", "JavaScript", "TypeScript", "PostgreSQL", "AWS", "Google Cloud Platform", "Cloudflare", "Docker", "GraphQL", "Microservicios", "Arquitectura Orientada a Eventos", "SaaS Multi-Tenant", "Sistemas ERP", "Hotwire", "Model Context Protocol (MCP)", "Integración de LLM", "Ingeniería de Producto"],
         "knowsLanguage": ["es", "en"],
         "sameAs": [
           "https://github.com/AlirioDS",
@@ -115,7 +115,6 @@
       <a href="#about">Sobre mí</a>
       <a href="#experience">Experiencia</a>
       <a href="#skills">Habilidades</a>
-      <a href="#creator">Creador</a>
       <a href="#contact">Contacto</a>
       <a class="lang" href="../" hreflang="en" lang="en" aria-label="Cambiar a inglés">EN</a>
     </div>
@@ -173,7 +172,7 @@
     <div class="job reveal">
       <h3>Ingeniero de Software Full-Stack Senior</h3>
       <p class="org">LegalAtoms · Seattle, EE.UU. (Remoto)</p>
-      <p class="period">ago 2025 – presente</p>
+      <p class="period">jul 2025 – presente</p>
       <ul>
         <li>Resuelvo problemas complejos de producción en un backend Rails y frontend Angular en una plataforma legal-tech para procesos judiciales.</li>
         <li>Integro pipelines de mensajería de AWS (SQS, SNS, SES) con reintentos e idempotencia para notificaciones asíncronas.</li>
@@ -185,14 +184,15 @@
 
     <div class="job reveal">
       <h3>Fundador e Ingeniero de Producto</h3>
-      <p class="org">Makundal · Producto independiente, operado a través de Byteploy</p>
-      <p class="period">2024 – presente</p>
+      <p class="org">Byteploy · Producto: Makundal</p>
+      <p class="period">oct 2025 – presente · Construido y lanzado en 2026</p>
       <ul>
         <li>Creé y opero <strong>Makundal</strong>, un SaaS/ERP multiempresa en producción para negocios gastronómicos y tiendas, que conecta punto de venta, inventario, compras, producción, control de caja y analítica.</li>
-        <li>Diseñé la arquitectura de la plataforma con Ruby on Rails, PostgreSQL y Hotwire, incluyendo aislamiento de tenants por subdominio, control de acceso basado en roles, autenticación de dos factores TOTP, actualizaciones en tiempo real, trazabilidad de auditoría y localización en español, inglés y portugués.</li>
-        <li>Gestiono el ciclo de vida completo del producto: modelado de dominio, UX, pruebas automatizadas, CI/CD, despliegue cloud, observabilidad y seguridad.</li>
+        <li>Pasé de desarrollo activo a la primera venta en producción en unos 2 meses. En producción registra más de 2.000 ventas, más de 26.000 movimientos de stock y más de 800 lotes de producción.</li>
+        <li>Diseñé la arquitectura de la plataforma con Rails 8, PostgreSQL, Hotwire, Action Cable y Solid Queue, incluyendo aislamiento de tenants por subdominio, control de acceso basado en roles, autenticación de dos factores TOTP, actualizaciones en tiempo real, trazabilidad de auditoría y localización en español, inglés y portugués.</li>
+        <li>Mantengo una suite de unos 5.000 tests automatizados con CI en GitHub Actions y gestiono el producto de extremo a extremo: modelado de dominio, UX, despliegue, observabilidad y seguridad.</li>
       </ul>
-      <div class="tags"><span class="tag">Ruby on Rails</span><span class="tag">PostgreSQL</span><span class="tag">Hotwire</span><span class="tag">Multi-Tenancy</span><span class="tag">SaaS</span><span class="tag">Ingeniería de Producto</span></div>
+      <div class="tags"><span class="tag">Rails 8</span><span class="tag">PostgreSQL</span><span class="tag">Hotwire</span><span class="tag">Action Cable</span><span class="tag">Solid Queue</span><span class="tag">Multi-Tenancy</span><span class="tag">SaaS</span></div>
       <div class="job-actions">
         <a class="btn ghost" href="https://makundal.com/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Makundal (se abre en una pestaña nueva)">Visitar Makundal</a>
       </div>
@@ -201,15 +201,25 @@
     <div class="job reveal">
       <h3>Líder de Equipo de Ingeniería</h3>
       <p class="org">Rankmi · Santiago, Chile</p>
-      <p class="period">mar 2022 – abr 2025</p>
+      <p class="period">jun 2023 – abr 2025</p>
       <ul>
         <li>Lideré un equipo de 4 ingenieros en 2 squads en una plataforma HR-tech con más de 100.000 usuarios.</li>
-        <li>Refactoricé y migré más de 10 microservicios; reduje los bugs en un 75% en un año.</li>
+        <li>Lideré la refactorización y migración de más de 10 microservicios; reduje los bugs en un 75% en un año.</li>
         <li>Reduje los tiempos de despliegue en un 50% optimizando pipelines de CI/CD con GitHub Actions.</li>
-        <li>Construí flujos orientados a eventos con Apache Kafka y AWS SQS/SNS, y colaboración en tiempo real con AnyCable.</li>
-        <li>Modernicé interfaces en React (Hooks, Redux, Context) y Angular junto a los equipos de producto y diseño.</li>
       </ul>
-      <div class="tags"><span class="tag">Ruby on Rails</span><span class="tag">React</span><span class="tag">Kafka</span><span class="tag">GraphQL</span><span class="tag">Docker</span><span class="tag">Liderazgo</span></div>
+      <div class="tags"><span class="tag">Ruby on Rails</span><span class="tag">Microservicios</span><span class="tag">GitHub Actions</span><span class="tag">Docker</span><span class="tag">Liderazgo</span></div>
+    </div>
+
+    <div class="job reveal">
+      <h3>Desarrollador Full-Stack</h3>
+      <p class="org">Rankmi · Santiago, Chile</p>
+      <p class="period">mar 2022 – jun 2023</p>
+      <ul>
+        <li>Desarrollé APIs REST y GraphQL para conectar microservicios de la plataforma.</li>
+        <li>Construí flujos orientados a eventos con AWS SQS/SNS y funcionalidades en tiempo real con AnyCable.</li>
+        <li>Desarrollé interfaces en React (Hooks, Redux, Context) y Angular junto a los equipos de producto y diseño.</li>
+      </ul>
+      <div class="tags"><span class="tag">Ruby on Rails</span><span class="tag">GraphQL</span><span class="tag">AWS SQS/SNS</span><span class="tag">AnyCable</span><span class="tag">React</span><span class="tag">Angular</span></div>
     </div>
 
     <div class="job reveal">
@@ -228,6 +238,12 @@
       <h3>Roles anteriores: Desarrollador Web, Ingeniero de TI, Fundador</h3>
       <p class="org">Chile y Venezuela</p>
       <p class="period">2014–2019</p>
+      <ul class="role-list">
+        <li><strong>Freelance</strong> · 2017–2019</li>
+        <li><strong>Slice Group</strong> · 2016–2017</li>
+        <li><strong>Altair Tech</strong> · 2015–2016</li>
+        <li><strong>A1TV</strong> · 2014–2015</li>
+      </ul>
       <ul>
         <li>Construí sitios web, e-commerce con integraciones de pago, módulos ERP y herramientas internas; fundé una empresa de servicios de TI que entregaba despliegues de redes y soporte técnico.</li>
       </ul>
@@ -267,6 +283,13 @@
             <a class="btn ghost" href="https://masamasters.cl/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Masa Masters (se abre en una pestaña nueva)">Visitar Masa Masters</a>
           </div>
         </article>
+
+        <article class="work-card reveal">
+          <p class="work-type">Plataforma</p>
+          <h4>Plataforma de IA multiagente autoalojada</h4>
+          <p>Una plataforma autoalojada donde varios agentes de IA trabajan a través de 11 servidores MCP que desarrollé yo mismo. Cada agente tiene permisos propios y acotados, y las acciones requieren aprobación humana antes de ejecutarse.</p>
+          <div class="tags"><span class="tag">MCP</span><span class="tag">Agentes de IA</span><span class="tag">Self-Hosted</span><span class="tag">Human-in-the-Loop</span></div>
+        </article>
       </div>
     </div>
   </div>
@@ -280,38 +303,9 @@
       <div class="skill-card reveal"><h3>Backend</h3><p>Ruby on Rails, Node.js, APIs REST, GraphQL, Sidekiq, AnyCable, WebSockets</p></div>
       <div class="skill-card reveal"><h3>Bases de datos</h3><p>PostgreSQL, MySQL, MongoDB, Redis, SQLite</p></div>
       <div class="skill-card reveal"><h3>Cloud y DevOps</h3><p>AWS (EC2, S3, SQS, SNS, SES, CloudWatch), Google Cloud Platform (GCP), Cloudflare, Docker, Nginx, Linux, GitHub Actions</p></div>
-      <div class="skill-card reveal"><h3>Arquitectura</h3><p>Microservicios, Arquitectura Orientada a Eventos, Apache Kafka, Sistemas en Tiempo Real, Observabilidad</p></div>
+      <div class="skill-card reveal"><h3>Arquitectura</h3><p>Microservicios, Arquitectura Orientada a Eventos, Sistemas en Tiempo Real, Observabilidad</p></div>
       <div class="skill-card reveal"><h3>Testing y Calidad</h3><p>RSpec, Test-Driven Development, Code Review, Pruebas End-to-End</p></div>
-    </div>
-  </div>
-</section>
-
-<section id="creator">
-  <div class="container">
-    <h2 class="reveal">Creador y Streaming</h2>
-    <div class="creator-grid">
-      <figure class="creator-profile reveal">
-        <img src="../assets/alirioplay-avatar.webp" alt="Avatar ilustrado de AlirioPlay" width="480" height="480" loading="lazy" decoding="async">
-        <figcaption>
-          <span class="creator-handle">@AlirioPlay</span>
-          <span class="creator-language">Contenido en español</span>
-        </figcaption>
-      </figure>
-      <div class="creator-copy reveal">
-        <p class="creator-lede">Además de mi trabajo en ingeniería de software, creo contenido de <strong>gaming y streaming en español</strong> bajo el nombre AlirioPlay, centrado en FPS y juegos multijugador: gameplays, primeras impresiones, actualizaciones y partidas con amigos.</p>
-        <p>Detrás de las transmisiones, uso <strong>OBS</strong> con un <strong>servidor dedicado que ejecuta Restreamer</strong> para multistreaming, respaldado por mi laboratorio doméstico (home lab), infraestructura de red y automatizaciones. Esta configuración es una extensión práctica de cómo abordo la infraestructura: observable, repetible y preparada para evolucionar.</p>
-        <div class="tags">
-          <span class="tag">OBS</span><span class="tag">Restreamer</span><span class="tag">Multistreaming</span><span class="tag">Home Lab</span><span class="tag">Redes</span><span class="tag">Automatización</span>
-        </div>
-        <div class="creator-links">
-          <a class="btn primary" href="https://www.youtube.com/@AlirioPlay" target="_blank" rel="me noopener noreferrer" aria-label="YouTube (se abre en una pestaña nueva)">YouTube</a>
-          <a class="btn ghost" href="https://www.twitch.tv/alirioplay" target="_blank" rel="me noopener noreferrer" aria-label="Twitch (se abre en una pestaña nueva)">Twitch</a>
-          <a class="btn ghost" href="https://www.instagram.com/alirioplay/" target="_blank" rel="me noopener noreferrer" aria-label="Instagram (se abre en una pestaña nueva)">Instagram</a>
-          <a class="btn ghost" href="https://www.tiktok.com/@alirioplay" target="_blank" rel="me noopener noreferrer" aria-label="TikTok (se abre en una pestaña nueva)">TikTok</a>
-          <a class="btn ghost" href="https://x.com/AlirioDS" target="_blank" rel="me noopener noreferrer" aria-label="X (@AlirioDS, se abre en una pestaña nueva)">X (@AlirioDS)</a>
-          <a class="btn ghost" href="https://kick.com/alirioplay" target="_blank" rel="me noopener noreferrer" aria-label="Kick (se abre en una pestaña nueva)">Kick</a>
-        </div>
-      </div>
+      <div class="skill-card reveal"><h3>IA y LLM</h3><p>Desarrollo de servidores MCP, API de OpenAI (structured outputs, streaming), Claude Code, Cursor</p></div>
     </div>
   </div>
 </section>
@@ -319,7 +313,7 @@
 <section class="alt" id="contact">
   <div class="container reveal">
     <h2>Contacto</h2>
-    <p>Estoy abierto a colaborar en proyectos de Ruby on Rails y JavaScript, especialmente con equipos remotos que valoren una comunicación asíncrona y clara. La forma más rápida de contactarme es por correo, en español o inglés.</p>
+    <p>Estoy abierto a roles senior remotos a tiempo completo con empresas de EE.UU. y Europa, especialmente en equipos de Ruby on Rails y JavaScript que valoren una comunicación asíncrona y clara. La forma más rápida de contactarme es por correo, en español o inglés.</p>
     <div class="contact-links">
       <a class="btn primary" href="mailto:aliriodiaz111@gmail.com">aliriodiaz111@gmail.com</a>
       <a class="btn ghost" href="https://www.linkedin.com/in/alirio-diaz" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn (se abre en una pestaña nueva)">LinkedIn</a>
